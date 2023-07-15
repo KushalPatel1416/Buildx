@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/avtar">
+
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginLeft="45dp"
+
+        >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name          ->"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="contact       ->"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experience ->"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="140dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/Ename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Econtact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="contact"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Eexperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="experience"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/avtar"
+        >
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/available"
+        android:layout_width="108dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="35dp"
+        android:layout_height="wrap_content"
+        android:text="Available"
+        android:textColor="#53E116"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginLeft="45dp"
+        >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name    ->"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="contact ->"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="address->"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shop      ->"
+            android:textStyle="bold">
+
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="120dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lcontact"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:text="contact"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/laddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="address"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lshop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="shop"
+            android:textStyle="bold">
+
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

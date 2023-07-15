@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seller.SellerOf"
+    android:background="#6FDDD5D5">
+
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="708dp"
+        android:text="SELLS"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:textSize="35dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="183dp"
+        android:layout_marginBottom="568dp"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="ARE YOU A STEEL SELLER"
+        android:textSize="15dp">
+
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="262dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="571dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="493dp"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="ARE YOU A BRICKS SELLER"
+        android:textSize="15dp">
+
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spin2"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="492dp">
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="415dp"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="ARE YOU A AGGREGATE SELLER"
+        android:textSize="15dp">
+
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spin3"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="337dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="418dp">
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="579dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="171dp"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="ARE YOU A CEMENT SELLER"
+        android:textSize="15dp">
+
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spin4"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="581dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="184dp">
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="501dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="249dp"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="ARE YOU A WOOD SELLER"
+        android:textSize="15dp">
+
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spin5"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="505dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="260dp">
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="418dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="332dp"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="ARE YOU A SAND SELLER"
+        android:textSize="15dp">
+
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spin6"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="265dp"
+        android:layout_marginTop="421dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="334dp">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:text="Save"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

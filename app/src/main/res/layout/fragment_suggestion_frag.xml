@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Steel_Sellers">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suggestions"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#42A5F5"
+        android:fontFamily="@font/be_vietnam"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <ImageView
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/suggestion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </ImageView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="412dp"
+        android:layout_height="735dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.981">
+
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="708dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="393dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp"
+                app:cardUseCompatPadding="true">
+
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:drawablePadding="14dp"
+                    android:text="Understanding project complexity and how it can be managed is critical for architects due to the changes in decision-making and goal accomplishment that are linked with complexity."
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="393dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:drawablePadding="14dp"
+                    android:text="The brief is a document that explains your building project’s needs, objectives, and limits. It serves as the foundation upon which your architect will create the design for your project."
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="393dp"
+                android:layout_height="104dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:drawablePadding="14dp"
+                    android:text="Allow them to share their ideas and points of view regarding the construction of the house, each member will have different viewpoints. Plan a meeting with all and have a fair debate to gather the points."
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="393dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:drawablePadding="14dp"
+                    android:text="A complete collection of construction drawings typically includes floor plans, elevations, sections, and detailed drawings, all of which work together to produce a complete description of the dream home ."
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="393dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:drawablePadding="14dp"
+                    android:text="Property owners are responsible for compiling the dream home project brief, and when working with the architect, he is open to new architectural ideas and debates, noting each requirement and informing the architect."
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="393dp"
+                android:layout_height="96dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:drawablePadding="14dp"
+                    android:text="It is necessary to confirm, in the beginning, Vastu’s complaints and requirements. Basic Vastu with respect to the master bedroom, doors, kitchen, toilets, entrance, and pooja room can be accommodated"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="393dp"
+                android:layout_height="91dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:drawablePadding="14dp"
+                    android:text="To avoid legal complications, every property must follow the local BYLAWS. Bylaws primarily support utilities such as plumbing and electrical services, privacy, and security."
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
