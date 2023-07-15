@@ -147,10 +147,10 @@ public class Login_Activity extends AppCompatActivity {
 //    //BackPressed fun..
     @Override
     public void onBackPressed() {
-        if(doubletap){
-        super.onBackPressed();
-        return;
-        }
+//        if(doubletap){
+//        super.onBackPressed();
+//        return;
+//        }
 //        else {
 //            doubletap=true;
 //            Snackbar.make(view,"Tap again to Exit",duration).show();
